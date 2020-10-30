@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}

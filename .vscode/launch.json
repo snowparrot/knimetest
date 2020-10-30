@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug with Argls",
+            "request": "launch",
+            "mainClass": "org.yourname.Main",
+            "projectName": "knime_coding_challenge",
+            "args": "--input input.txt --inputtype int --operations reverse --threads 3 --output output.txt"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<knime_coding_challenge>",
+            "request": "launch",
+            "mainClass": "org.yourname.Main",
+            "projectName": "knime_coding_challenge"
+        }
+    ]
+}
